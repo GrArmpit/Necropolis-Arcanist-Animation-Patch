@@ -4,7 +4,8 @@
     <AssemblyName>ArcanistAnimFix</AssemblyName>
     <LangVersion>latest</LangVersion>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <GAME>/home/kevin/.local/share/Steam/steamapps/common/Necropolis/</GAME>
+    <GAME>path/to/.steam/Steam/steamapps/common/Necropolis/</GAME>
+    <BEPINEX>path/to/BepinEx</BEPINEX>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,11 +14,11 @@
 
   <ItemGroup>
     <Reference Include="BepInEx">
-      <HintPath>/home/kevin/.config/r2modmanPlus-local/Necropolis/profiles/Default/BepInEx/core/BepInEx.dll</HintPath>
+      <HintPath>$(BEPINEX)/core/BepInEx.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>/home/kevin/.config/r2modmanPlus-local/Necropolis/profiles/Default/BepInEx/core/0Harmony.dll</HintPath>
+      <HintPath>$(BEPINEX)/core/0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
