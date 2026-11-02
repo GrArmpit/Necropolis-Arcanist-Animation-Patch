@@ -1,0 +1,10 @@
+{
+    "name": "Arcanist Anim Fix",
+    "version_number": "0.2",
+    "description": "Forces nonexistent arcanist animations to be brute animations instead",
+    "dependencies": [
+        "DeadJak-CustomAdventurers-0.0.1",
+        "BepInEx-BepInExPack_Necropolis-5.4.2304"
+    ],
+    "website_url": "https://github.com/GrArmpit/Necropolis-Arcanist-Animation-Patch/tree/main"
+}
